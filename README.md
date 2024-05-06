@@ -6,15 +6,14 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+http://localhost:3000/SignUp
+http://localhost:3000/SignIn
+<img width="637" alt="image" src="https://github.com/S4Selenium/NextJs-FireBase/assets/99454807/79388ba6-e6a1-47fd-b8bc-2619b97fe86a">
+
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
