@@ -1,0 +1,93 @@
+[debug] [2024-05-06T03:28:53.907Z] ----------------------------------------------------------------------
+[debug] [2024-05-06T03:28:53.910Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Jarvis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --import=./auth
+[debug] [2024-05-06T03:28:53.910Z] CLI Version:   13.8.0
+[debug] [2024-05-06T03:28:53.910Z] Platform:      win32
+[debug] [2024-05-06T03:28:53.911Z] Node Version:  v20.12.2
+[debug] [2024-05-06T03:28:53.911Z] Time:          Mon May 06 2024 06:28:53 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-05-06T03:28:53.911Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-05-06T03:28:54.080Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-05-06T03:28:54.081Z] > authorizing via signed-in user (sarinps007@gmail.com)
+[debug] [2024-05-06T03:28:54.235Z] java version "17.0.6" 2023-01-17 LTS
+Java(TM) SE Runtime Environment (build 17.0.6+9-LTS-190)
+
+[debug] [2024-05-06T03:28:54.236Z] Java HotSpot(TM) 64-Bit Server VM (build 17.0.6+9-LTS-190, mixed mode, sharing)
+
+[debug] [2024-05-06T03:28:54.257Z] Parsed Java major version: 17
+[info] i  emulators: Starting emulators: auth, functions, firestore, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, functions, firestore, hosting"}}
+[debug] [2024-05-06T03:28:54.270Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.270Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.270Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.270Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.270Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.271Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-05-06T03:28:54.275Z] [hub] writing locator at C:\Users\Jarvis\AppData\Local\Temp\hub-nova-bd8bd.json
+[warn] !  emulators: Could not find import/export metadata file, skipping data import! {"metadata":{"emulator":{"name":"hub"},"message":"Could not find import/export metadata file, \u001b[1mskipping data import!\u001b[22m"}}
+[debug] [2024-05-06T03:28:54.289Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.289Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-05-06T03:28:54.289Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8080}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9150}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: database, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mdatabase, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2024-05-06T03:28:54.296Z] defaultcredentials: writing to file C:\Users\Jarvis\AppData\Roaming\firebase\sarinps007_gmail_com_application_default_credentials.json
+[debug] [2024-05-06T03:28:54.300Z] Setting GAC to C:\Users\Jarvis\AppData\Roaming\firebase\sarinps007_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Jarvis\\AppData\\Roaming\\firebase\\sarinps007_gmail_com_application_default_credentials.json"}}
+[debug] [2024-05-06T03:28:54.302Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/adminSdkConfig [none]
+[debug] [2024-05-06T03:28:54.635Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/adminSdkConfig 200
+[debug] [2024-05-06T03:28:54.636Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/adminSdkConfig {"projectId":"nova-bd8bd","storageBucket":"nova-bd8bd.appspot.com"}
+[warn] !  firestore: Cloud Firestore rules file C:\Users\Jarvis\nova\src\firestore.rules specified in firebase.json does not exist. {"metadata":{"emulator":{"name":"firestore"},"message":"Cloud Firestore rules file \u001b[1mC:\\Users\\Jarvis\\nova\\src\\firestore.rules\u001b[22m specified in firebase.json does not exist."}}
+[warn] !  firestore: The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration. {"metadata":{"emulator":{"name":"firestore"},"message":"The emulator will default to allowing all reads and writes. Learn more about this option: https://firebase.google.com/docs/emulator-suite/install_and_configure#security_rules_configuration."}}
+[debug] [2024-05-06T03:28:54.680Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-05-06T03:28:54.681Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-05-06T03:28:54.681Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","C:\\Users\\Jarvis\\.cache\\firebase\\emulators\\cloud-firestore-emulator-v1.19.5.jar","--host","127.0.0.1","--port",8080,"--websocket_port",9150,"--project_id","nova-bd8bd","--single_project_mode",true,"--functions_emulator","127.0.0.1:5001"],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"C:\\\\Users\\\\Jarvis\\\\.cache\\\\firebase\\\\emulators\\\\cloud-firestore-emulator-v1.19.5.jar\",\"--host\",\"127.0.0.1\",\"--port\",8080,\"--websocket_port\",9150,\"--project_id\",\"nova-bd8bd\",\"--single_project_mode\",true,\"--functions_emulator\",\"127.0.0.1:5001\"],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[info] +  firestore: Firestore Emulator UI websocket is running on 9150. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9150."}}
+[debug] [2024-05-06T03:29:04.384Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/nova-bd8bd/sites 
+[debug] [2024-05-06T03:29:05.690Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/nova-bd8bd/sites 200
+[debug] [2024-05-06T03:29:05.691Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/nova-bd8bd/sites {"sites":[{"name":"projects/nova-bd8bd/sites/nova-bd8bd","defaultUrl":"https://nova-bd8bd.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2024-05-06T03:29:05.691Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/webApps/-/config [none]
+[debug] [2024-05-06T03:29:06.403Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/webApps/-/config 200
+[debug] [2024-05-06T03:29:06.403Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd/webApps/-/config {"projectId":"nova-bd8bd","appId":"1:99056299917:web:c220a47dcf0603f52657c4","storageBucket":"nova-bd8bd.appspot.com","apiKey":"AIzaSyDLRMexhCQyhC4ek5txrmCTNOugYSVJWdI","authDomain":"nova-bd8bd.firebaseapp.com","messagingSenderId":"99056299917","measurementId":"G-ZZ1B887NS1"}
+[debug] [2024-05-06T03:29:06.416Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd [none]
+[debug] [2024-05-06T03:29:06.623Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd 200
+[debug] [2024-05-06T03:29:06.624Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nova-bd8bd {"projectId":"nova-bd8bd","projectNumber":"99056299917","displayName":"Nova","name":"projects/nova-bd8bd","resources":{"hostingSite":"nova-bd8bd"},"state":"ACTIVE","etag":"1_4839866a-f030-4630-9b93-af5e5d6e74d2"}
+[debug] [2024-05-06T03:29:06.628Z] Specified "public" directory "public" does not exist; Deploy to Hosting site "nova-bd8bd" may fail or be empty.
+[info] i  hosting[nova-bd8bd]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[nova-bd8bd]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[debug] [2024-05-06T03:29:06.673Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-05-06T03:29:06.674Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-05-06T03:29:06.674Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Jarvis\\.cache\\firebase\\emulators\\ui-v1.11.8\\server\\server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Jarvis\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.8\\\\server\\\\server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-05-06T03:29:06.843Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-05-06T03:29:06.844Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Jarvis\nova\src\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Jarvis\\nova\\src\\functions\" for Cloud Functions..."}}
+[error] !!  functions: Failed to load function definition from source: FirebaseError: could not deploy functions because the "functions" directory was not found. Please create it or specify a different source directory in firebase.json {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: could not deploy functions because the \u001b[1m\"functions\"\u001b[22m directory was not found. Please create it or specify a different source directory in firebase.json"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Functions      │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8080 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Hosting        │ 127.0.0.1:5000 │ n/a                             │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2024-05-06T03:31:28.756Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast [none]
+[debug] [2024-05-06T03:31:28.757Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast {"eventId":"2ab2fe64-c758-48cf-8762-6a4f2786a5d6","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/nova-bd8bd","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-05-06T03:31:28.756Z","data":{"uid":"1WCgMofktqskdIOsXjzUbLI3uWIO","email":"test@test.com","emailVerified":false,"displayName":"testuser","photoURL":"","metadata":{"creationTime":"2024-05-06T03:31:28.753Z","lastSignInTime":"2024-05-06T03:31:28.753Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"test@test.com","federatedId":"test@test.com","rawId":"test@test.com","displayName":"testuser","photoUrl":""}],"mfaInfo":[]}}
+[debug] [2024-05-06T03:31:28.765Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast 200
+[debug] [2024-05-06T03:31:28.765Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast {"status":"multicast_acknowledged"}
+[debug] [2024-05-06T03:32:10.240Z] >>> [apiv2][query] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast [none]
+[debug] [2024-05-06T03:32:10.240Z] >>> [apiv2][body] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast {"eventId":"9ecb5f66-8574-48e3-8b5b-c8e5603cc006","eventType":"providers/firebase.auth/eventTypes/user.create","resource":{"name":"projects/nova-bd8bd","service":"firebaseauth.googleapis.com"},"params":{},"timestamp":"2024-05-06T03:32:10.240Z","data":{"uid":"OKBg3YoOXoLy0DKuBtdBbZUfpypn","email":"test1@test.com","emailVerified":false,"displayName":"teatuser2","photoURL":"","metadata":{"creationTime":"2024-05-06T03:32:10.239Z","lastSignInTime":"2024-05-06T03:32:10.239Z"},"customClaims":{},"providerData":[{"providerId":"password","email":"test1@test.com","federatedId":"test1@test.com","rawId":"test1@test.com","displayName":"teatuser2","photoUrl":""}],"mfaInfo":[]}}
+[debug] [2024-05-06T03:32:10.246Z] <<< [apiv2][status] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast 200
+[debug] [2024-05-06T03:32:10.246Z] <<< [apiv2][body] POST http://127.0.0.1:5001/functions/projects/nova-bd8bd/trigger_multicast {"status":"multicast_acknowledged"}

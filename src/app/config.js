@@ -10,6 +10,18 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
   measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
+if (location.hostname === "127.0.0.1:9099") {
+  console.log("127.0.0.1:9099 detected!!");
+  auth.useEmulator(" http://127.0.0.1:4000/auth");
+  db.useEmulator("127.0.0.1:9099");
+} else if (location.hostname === "127.0.0.1:5001") {
+  console.log("127.0.0.1:5001 detected!!");
+  auth.useEmulator(" http://127.0.0.1:4000/functions");
+  db.useEmulator("127.0.0.1:5001");
+} else if (location.hostname === " 127.0.0.1:8080") {
+  console.log(" 127.0.0.1:8080 detected!!");
+  auth.useEmulator(" http://127.0.0.1:4000/firestore");
+  db.useEmulator("127.0.0.1:8080");
 
 // Initialize Firebas
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
